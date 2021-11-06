@@ -1,18 +1,18 @@
 Card{
     
-    margin: 0 auto;
-    margin-top: 150px;
-    width: 18rem;       
+    margin: 0 auto;     /*Centraliza o item na tela */
+    margin-top: 150px;  /*Coloca uma distancia o topo*/
+    width: 18rem;       /*Coloca um tamanho do card*/
 }
-
+/**/
 Card2{
     
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 20rem;   
+    margin: 0 auto;   /*Centraliza o item na tela */
+    margin-top: 10px; /*Coloca uma distancia o topo*/
+    width: 20rem;     /*Coloca um tamanho do card*/
           
 }
 h3{
-    text-align: center;
+    text-align: center; /*Centraliza o texto na tela*/
 
 }
