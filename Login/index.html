@@ -1,25 +1,43 @@
-<!---->
+<!--
+<html lang="pt-br">
+  <head>
+    <meta/>
+    <title>coamndos</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  
+  <body>
+    <form action="POST" action="processa.php">
+      <input type="email">
+      <input type="password">
+      <input type="submit">
+    </form>
+  </body>
+</html>
+
+-->
 <!doctype html>
 <html lang="pt-br">
   <head>
     <title>Aprendendo php</title>
-    <link rel="stylesheet" href="conf.css"> <!--Chamando o compo de conf.css-->
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"> <!--Chamando o compo de conf.css-->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules\bootstrap\compiler\bootstrap.css">
   </head>
 
 
-  <body style="background-color: #1d3557"> <!--- [background-color: #247BA0] Mudando a cor de fundo do site-->>
+  <body style="background-color: #14213d"> <!--- [background-color: #247BA0] Mudando a cor de fundo do site-->
       
-        <divs class="card" style="width: 18rem;">
+        <Card class="card">
           <div class="card-body" >
 
               <div class="form-group">
-                <h4 class="card-title">Login</h4>
+                <h1 class="card-title">Login</h1>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
               </div>
 
@@ -27,10 +45,16 @@
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwoed">
               </div>
         
-              <button  type="submit" class="btn btn-primary" style="background-color: #1d3557">Logar</button>
+              <button  type="submit" class="btn btn-primary" style="background-color: #14213d">Logar</button>
             
           </div>
-        </divs>
+        </Card>
+
+        <Card2 class="card">
+            <div>
+              <h3 class="card-title">Pode acessar o portal.</h3>
+            </div>
+        </Card2>
       
     
 
